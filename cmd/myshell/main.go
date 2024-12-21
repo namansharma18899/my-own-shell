@@ -20,7 +20,7 @@ func main() {
 		}
 		input := strings.TrimSpace(command)
 		if input == "exit 0" {
-			os.Exit(1)
+			os.Exit(0)
 		}
 		fmt.Println(command[:len(command)-1] + ": command not found")
 	}
