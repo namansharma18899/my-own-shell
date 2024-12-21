@@ -26,6 +26,6 @@ func main() {
 			toPrint := strings.TrimPrefix(input, "echo ")
 			fmt.Println(toPrint)
 		}
-		// fmt.Println(command[:len(command)-1] + ": command not found")
+		fmt.Println(command[:len(command)-1] + ": command not found")
 	}
 }
